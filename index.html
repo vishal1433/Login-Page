@@ -1,0 +1,67 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    
+    <title>Login</title>
+</head>
+<body>
+   
+    <div class="box">
+    <h1><strong>Login</strong></h1>
+    <br>
+    <form action="/index.html" autocomplete="off"> 
+        <div class="big">
+        
+        <input type="text" placeholder="Enter Username" name="uname" required="">
+        </div>
+
+        <div>
+      
+        <input type="password" placeholder="Enter Password" name="pass" required=""> 
+        </div>
+        <div class="check">
+            <input type="checkbox" name="" id="">
+            <label><b>Remember me</b></label>
+        </div>
+        <div class="button">
+        <button>Log In</button>
+    </div>
+    </form>
+    <a href="signup.html">Sign Up</a>
+<a href="forgot.html">Forgot Password</a>
+</div>
+<a href="https://api.whatsapp.com/send?phone=917766985010&amp;text=Hey+there%2C+I+want+to+chat+with+you+regrading" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+
+
+    <!------- loader--------->
+    <div class="loader-wrapper" style="display: none;">
+        <div>
+            <p>l</p>
+            <p>o</p>
+            <p>a</p>
+            <p>d</p>
+            <p>i</p>
+            <p>n</p>
+            <p>g</p>
+          </div>
+          
+    </div>
+    <script>
+        $(window).on("load", function(){
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+    <!----------------Footer------------------->
+
+    
+
+
+</body></html>
